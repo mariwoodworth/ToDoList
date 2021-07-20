@@ -32,6 +32,11 @@ class ToDoTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    /* override func numberOfSections(in tableView: UITableView) -> Int {
+            // #warning Incomplete implementation, return the number of sections
+            return 0
+    }*/
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return toDos.count
@@ -44,14 +49,13 @@ class ToDoTableViewController: UITableViewController {
         
         if toDo.important {
             cell.textLabel?.text = "❗️" + toDo.name
-          } else {
+        } else {
             cell.textLabel?.text = toDo.name
-          }
+        }
 
         return cell
     }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -59,6 +63,5 @@ class ToDoTableViewController: UITableViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }
