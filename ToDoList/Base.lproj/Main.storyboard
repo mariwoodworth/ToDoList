@@ -31,6 +31,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To Do List" id="aae-Nr-dzA">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="uWL-qd-Vks">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Yfv-RH-KAV">
+                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="srZ-KL-sFX"/>
                     </navigationItem>
                 </tableViewController>
